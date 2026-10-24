@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node scripts/noop.js",
-    "test:integration:sandbox:none": "node scripts/noop.js",
-    "test:integration:sandbox:docker": "node scripts/noop.js"
+    "build": "node poc.js",
+    "test:integration:sandbox:none": "node poc.js",
+    "test:integration:sandbox:docker": "node poc.js"
   }
 }
